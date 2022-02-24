@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Formulário</title>
+  </head>
+  <body class="body">
+    <main>
+      <header>
+        <h1 class="header">Teste Front-End</h1>
+      </header>
+
+      <form class="form" action="">
+        <fieldset class="fieldset">
+          <legend>Formulário</legend>
+
+          <section class="section1">
+            <div class="div-do-form1">
+              <label>Nome:</label>
+              <input
+                type="text"
+                title="Seu primeiro nome"
+                placeholder="Primeiro nome"
+                maxlength="120"
+                required
+              />
+            </div>
+            <div class="div-do-form2">
+              <label>Sobrenome:</label>
+              <input
+                type="text"
+                title="Seu sobrenome"
+                placeholder="Sobrenome"
+                maxlength="120"
+                required
+              />
+            </div>
+          </section>
+
+          <section class="section2">
+            <div class="div-do-form3">
+              <label>Seu melhor email:</label>
+              <input
+                type="email"
+                title="Seu email"
+                placeholder="Email"
+                maxlength="120"
+                required
+              />
+            </div>
+            <div class="div-do-form4">
+              <label>Telefone:</label>
+              <input
+                type="text"
+                title="Seu telefone"
+                placeholder="(xx) xxxxx-xxxx"
+              />
+            </div>
+          </section>
+
+          <section class="section3">
+            <div class="div-do-form5">
+              <label>Senha:</label>
+              <input
+                type="password"
+                title="Sua senha"
+                placeholder="Mínimo de 6 caracteres"
+                minlength="6"
+                required
+              />
+            </div>
+            <div class="div-do-form6">
+              <label>Confirme sua senha:</label>
+              <input
+                type="password"
+                title="Sua senha"
+                placeholder="Mínimo de 6 caracteres"
+                minlength="6"
+                required
+              />
+            </div>
+          </section>
+        </fieldset>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+      </form>
+    </main>
+  </body>
+</html>
